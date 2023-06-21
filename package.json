@@ -1,0 +1,25 @@
+{
+  "name": "helpdesk_front",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/xgirldiv0px5ld0f?svg=true)](https://ci.appveyor.com/project/gosp1nord/dom3-events)",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "deploy": "push-dir --dir=public --branch=gh-pages --force --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "push-dir": "^0.4.1",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
